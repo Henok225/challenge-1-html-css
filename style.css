@@ -9,7 +9,7 @@ body{
 .box{
     display: flex;
     justify-content: flex-start;
-    width: 50%;
+    width: 380px;
     height: 270px;
     background-color: white;
     position: absolute;
@@ -99,3 +99,45 @@ body{
 .ris{
     color: black;
 }
+
+
+@media screen and (max-width:400px) {
+    .box{
+        
+            display: flex;
+            justify-content: flex-start;
+            width: 210px;
+            height: auto;
+            background-color: white;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translateX(-50%) translateY(-50%);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 6px 6px 10px rgba(103, 171, 243, 0.15);
+            
+           
+        
+        flex-wrap: wrap;
+    }
+
+    .summary{
+        width: 250px;
+    }
+    .your_result{
+        width: 250px;
+        border-radius: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
